@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<!-- for mobile view-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Link to favicon image -->
+	<link rel="icon" href="images/rat_favicon.jpg">
+
+	<!-- linking Google fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&family=Maven+Pro&display=swap" rel="stylesheet">
+
+	<!-- linking style sheets-->
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!-- for footer icon -->
+	<script src="https://kit.fontawesome.com/642870eb52.js" crossorigin="anonymous"></script>
+	
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+	<title>Gym Ratch</title>
+</head>
+<body>
+    <header>
+        <a href="#main" class="skip">Skip to Main Content</a>
+
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="images/rat_favicon.jpg" alt="website logo" class="logo">
+                </a>
+            </div>
+            <ul class="nav-items" id="nav-list">
+                <li class="nav-item">
+                    <a href="index.html">home</a>
+                </li>
+                <li class="nav-item has-subitems">
+                    <a href="getting-started.html">getting started</a>
+                    <button class="submenu-button">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <ul class="nav-subitems">
+                        <li class="nav-subitem">
+                            <a href="getting-motivated.html">getting motivated</a>
+                        </li>
+                        <li class="nav-subitem">
+                            <a href="gym-terminology.html">gym terminology</a>
+                        </li>
+                        <li class="nav-subitem">
+                            <a href="gym-accessories.html">gym accessories</a>
+                        </li>
+                        <li class="nav-subitem">
+                            <a href="protein.html">protein</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item has-subitems has-active-subtab">
+                    <a href="exercises.html">exercises</a>
+                    <button class="submenu-button">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <ul class="nav-subitems">
+                        <li class="nav-subitem">
+                            <a href="workout-split.html">workout split</a>
+                        </li>
+                        <li class="nav-subitem active-subtab">
+                            <a href="#">upper body</a>
+                        </li>
+                        <li class="nav-subitem">
+                            <a href="lower-body.html">lower body</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="about-me.html">about me</a>
+                </li>
+            </ul>
+            <button class="menu-button" id="menu-toggle">
+                <i id="menu-icon" class="fa-solid fa-bars fa-lg"></i>
+            </button>
+        </nav>
+
+        <nav class="breadcrumbs">
+            <ol>
+                <li>
+                    <a href="exercises.html">exercises</a>
+                </li>
+                <li>
+                    <a href="workout-split.html" id="current-breadcrumb">upper body</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+        <div class="footer-socials">
+            <h2>Contact</h2>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/gym.ratch/" target="_blank">
+                    <i class="fa-brands fa-instagram fa-lg"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rtcheng/" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-lg"></i>
+                </a>
+                <a href="mailto:rtcheng@umich.edu?subject=Re: Gym Ratch Inquiry" target="_blank">
+                    <i class="fa-solid fa-envelope fa-lg"></i>
+                </a>
+            </div>
+            <div class="locations">
+                <p>Based in Mountain View, California & Ann Arbor, Michigan</p>
+            </div>
+        </div>
+
+        <div id="copyright">
+            <i class="fa-solid fa-dumbbell"></i>
+            <p>Gym Ratch</p>
+		    <p>Rachel Cheng &copy; 2022</p>
+        </div>
+	</footer>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
